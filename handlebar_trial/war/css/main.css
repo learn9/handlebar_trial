@@ -24,6 +24,12 @@ body {
 }
 
 
+#list {
+	overflow-y: auto;
+	height: 100%;
+	background-color: lightgrey;
+}
+
 body {
     font-family: ProximaNovaReg, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
