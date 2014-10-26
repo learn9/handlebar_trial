@@ -39,6 +39,11 @@ a:hover {
 
 .comment-box {
 	margin: 10px;
+	padding: 10px;
+	border-style: solid;
+	border-color: #008B8B;
+	border-width: 1px;
+	border-radius: 3px;
 }
 
 .time-str {
@@ -87,24 +92,17 @@ a:hover {
 {{#data}}
 <div style="max-width: 400px; background-color: black; color: white; border-radius: 10px; margin-bottom: 10px; padding: 10px; box-shadow: 10px 10px 5px #888888;" class="list-elem">
 	<details>		
-        <summary>
+        <summary style="padding: 10px;">
 			<h1>Bus Stop {{stop_id}}<h1>
 		</summary>
+		{{#feedback}}
 		<div class="comment-box">
-			<p>{{feedback.0.comment}}</p>
+			<p>{{comment}}</p>
+			<button class="feedback-btn">Reply</button>
 		</div>
-		<div class="comment-box">
-			{{feedback.1.comment}}
-		</div>
-		<div class="comment-box">
-			{{feedback.2.comment}}
-		</div>
-		<div class="comment-box">
-			{{feedback.3.comment}}
-		</div>
-		<div class="comment-box">
-			{{feedback.4.comment}}
-		</div>
+		{{/feedback}}
+
+
 	</details>
 </div>
 {{/data}}
