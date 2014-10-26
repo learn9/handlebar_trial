@@ -1,0 +1,32 @@
+[{
+    "stop_id": 5,
+    "lat": 37.328690,
+    "long": -121.910797,
+    "feedback": [
+        {
+            "datetime": 1414275828,
+            "comment": "This bus is awesome"
+        },
+        {
+            "datetime": 1414675828,
+            "comment": "This bus sucks!!"
+        }
+    ]
+},
+{
+  
+    "stop_id": 8,
+    "lat": 37.327764630962164,
+    "long": -121.893665023193606,
+    "feedback": [
+        {
+            "datetime": 1414275828,
+            "comment": "This bus is awesome"
+        },
+        {
+            "datetime": 1414675828,
+            "comment": "This bus sucks!!"
+        }
+    ]
+}
+];
